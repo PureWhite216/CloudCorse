@@ -1,0 +1,86 @@
+.outside_box {
+  height: 58px;
+  background-color: hsl(206, 65%, 74%);
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.title_left_box {
+  // 自身定位方式：相对
+  position: relative;
+  top: 0;
+  left: 0;
+  // 自身属性
+  height: 100%;
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.title_left {
+  width: 250px;
+  color: #001a40;
+  font-size: 3.2rem;;
+  font-weight: bold;
+  padding-left: 30px;
+
+}
+
+.title_left_box:hover {
+  cursor: pointer;
+}
+
+.btn_center_box {
+  // 自身定位方式：相对
+  position: relative;
+  top: 0;
+  left: 0;
+  // 自身属性
+  width: 600px;
+  height: 100%;
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn_center {
+  width: 145px;
+  height: 100%;
+  color: #001a40;
+  cursor: pointer;
+  transition: all 250ms;
+  // 内容排布方式
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn_center:hover {
+  color: #a0f0ff;
+  background-color: #0083c7;
+}
+
+.btn_center:active {
+  background-color: #00a6ff;
+}
+
+.btn_center_highlight {
+  width: 168px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 250ms;
+  // 内容排布方式
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #006ea8;
+  color: #a0f0ff;
+}
